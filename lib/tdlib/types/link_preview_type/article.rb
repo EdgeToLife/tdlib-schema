@@ -5,6 +5,6 @@ module TD::Types
   # @attr author [TD::Types::String] Author of the article.
   class LinkPreviewType::Article < LinkPreviewType
     attribute :photo, TD::Types::Photo.optional.default(nil)
-    attribute :author, TD::Types::String
+    attribute :author, TD::Types::String.optional.default(nil)
   end
 end

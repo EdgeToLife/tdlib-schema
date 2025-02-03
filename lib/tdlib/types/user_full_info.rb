@@ -57,7 +57,7 @@ module TD::Types
     attribute :bio, TD::Types::FormattedText.optional.default(nil)
     attribute :birthdate, TD::Types::Birthdate.optional.default(nil)
     attribute :personal_chat_id, TD::Types::Coercible::Integer
-    attribute :premium_gift_options, TD::Types::Array.of(TD::Types::PremiumPaymentOption)
+    attribute :premium_gift_options, TD::Types::Array.of(TD::Types::PremiumPaymentOption).optional.default(nil)
     attribute :group_in_common_count, TD::Types::Coercible::Integer
     attribute :business_info, TD::Types::BusinessInfo.optional.default(nil)
     attribute :bot_info, TD::Types::BotInfo.optional.default(nil)

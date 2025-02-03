@@ -62,12 +62,12 @@ module TD::Types
     attribute :is_contact, TD::Types::Bool
     attribute :is_mutual_contact, TD::Types::Bool
     attribute :is_close_friend, TD::Types::Bool
-    attribute :is_verified, TD::Types::Bool
+    attribute :is_verified, TD::Types::Bool.optional.default(false)
     attribute :is_premium, TD::Types::Bool
     attribute :is_support, TD::Types::Bool
     attribute :restriction_reason, TD::Types::String
-    attribute :is_scam, TD::Types::Bool
-    attribute :is_fake, TD::Types::Bool
+    attribute :is_scam, TD::Types::Bool.optional.default(false)
+    attribute :is_fake, TD::Types::Bool.optional.default(false)
     attribute :has_active_stories, TD::Types::Bool
     attribute :has_unread_active_stories, TD::Types::Bool
     attribute :restricts_new_chats, TD::Types::Bool

@@ -64,11 +64,11 @@ module TD::Types
     attribute :is_channel, TD::Types::Bool
     attribute :is_broadcast_group, TD::Types::Bool
     attribute :is_forum, TD::Types::Bool
-    attribute :is_verified, TD::Types::Bool
+    attribute :is_verified, TD::Types::Bool.optional.default(false)
     attribute :has_sensitive_content, TD::Types::Bool
     attribute :restriction_reason, TD::Types::String
-    attribute :is_scam, TD::Types::Bool
-    attribute :is_fake, TD::Types::Bool
+    attribute :is_scam, TD::Types::Bool.optional.default(false)
+    attribute :is_fake, TD::Types::Bool.optional.default(false)
     attribute :has_active_stories, TD::Types::Bool
     attribute :has_unread_active_stories, TD::Types::Bool
   end

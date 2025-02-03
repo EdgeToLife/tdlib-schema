@@ -1755,7 +1755,10 @@ module TD::Types
       'logStreamEmpty'                                          => 'LogStream::Empty',
       'logVerbosityLevel'                                       => 'LogVerbosityLevel',
       'logTags'                                                 => 'LogTags',
-      'userSupportInfo'                                         => 'UserSupportInfo'
+      'userSupportInfo'                                         => 'UserSupportInfo',
+      'alternativeVideo'                                        => 'AlternativeVideo',
+      'chatFolderName'                                          => 'ChatFolderName',
+      'verificationStatus'                                      => 'VerificationStatus'
   }.freeze
   
   module_function
@@ -1799,6 +1802,7 @@ module TD::Types
     added_reaction
     added_reactions
     address
+    alternative_video
     animated_chat_photo
     animated_emoji
     animation
@@ -1895,6 +1899,7 @@ module TD::Types
     chat_event_log_filters
     chat_events
     chat_folder
+    chat_folder_name
     chat_folder_icon
     chat_folder_info
     chat_folder_invite_link
@@ -2331,6 +2336,7 @@ module TD::Types
     validated_order_info
     vector_path_command
     venue
+    verification_status
     video
     video_chat
     video_note
