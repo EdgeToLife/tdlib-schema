@@ -5,6 +5,7 @@ module TD::Types
       emoji
       custom_emoji
       paid
+      regular
     ].each do |type|
       autoload TD::Types.camelize(type), "tdlib/types/reaction_type/#{type}"
     end
