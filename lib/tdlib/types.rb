@@ -1758,7 +1758,8 @@ module TD::Types
       'userSupportInfo'                                         => 'UserSupportInfo',
       'alternativeVideo'                                        => 'AlternativeVideo',
       'chatFolderName'                                          => 'ChatFolderName',
-      'verificationStatus'                                      => 'VerificationStatus'
+      'verificationStatus'                                      => 'VerificationStatus',
+      'emojiStatusTypeCustomEmoji'                              => 'EmojiStatusType::CustomEmoji',
   }.freeze
   
   module_function
@@ -1987,6 +1988,7 @@ module TD::Types
     emoji_keywords
     emoji_reaction
     emoji_status
+    emoji_status_type
     emoji_statuses
     emojis
     encrypted_credentials
