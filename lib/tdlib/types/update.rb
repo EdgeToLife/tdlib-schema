@@ -152,6 +152,7 @@ module TD::Types
       chat_boost
       message_reaction
       message_reactions
+      default_paid_reaction_type
     ].each do |type|
       autoload TD::Types.camelize(type), "tdlib/types/update/#{type}"
     end

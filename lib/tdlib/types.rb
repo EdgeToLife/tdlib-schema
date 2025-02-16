@@ -1760,6 +1760,8 @@ module TD::Types
       'chatFolderName'                                          => 'ChatFolderName',
       'verificationStatus'                                      => 'VerificationStatus',
       'emojiStatusTypeCustomEmoji'                              => 'EmojiStatusType::CustomEmoji',
+      'paidReactionTypeRegular'                                 => 'ReactionType::PaidRegular',
+      'updateDefaultPaidReactionType'                           => 'Update::DefaultPaidReactionType'
   }.freeze
   
   module_function
