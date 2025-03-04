@@ -4,6 +4,7 @@ module TD::Types
   class GiveawayPrize < Base
     %w[
       premium
+      stars
     ].each do |type|
       autoload TD::Types.camelize(type), "tdlib/types/giveaway_prize/#{type}"
     end

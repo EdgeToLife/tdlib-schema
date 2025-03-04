@@ -8,9 +8,9 @@ module TD::Types
   # @attr author [TD::Types::String] Author of the audio.
   class LinkPreviewType::Audio < LinkPreviewType
     attribute :url, TD::Types::String.optional.default(nil)
-    attribute :mime_type, TD::Types::String
+    attribute :mime_type, TD::Types::String.optional.default(nil)
     attribute :audio, TD::Types::Audio.optional.default(nil)
-    attribute :duration, TD::Types::Coercible::Integer
+    attribute :duration, TD::Types::Coercible::Integer.optional.default(nil)
     attribute :author, TD::Types::String.optional.default(nil)
   end
 end

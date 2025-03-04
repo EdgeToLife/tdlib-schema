@@ -1765,7 +1765,11 @@ module TD::Types
       'paidReactionTypeRegular'                                 => 'ReactionType::PaidRegular',
       'updateDefaultPaidReactionType'                           => 'Update::DefaultPaidReactionType',
       'upgradedGiftBackdropColors'                              => 'UpgradedGiftBackdropColors',
-      'giveawayPrizePremium'                                    => 'GiveawayPrize::Premium'
+      'giveawayPrizePremium'                                    => 'GiveawayPrize::Premium',
+      'giveawayPrizeStars'                                      => 'GiveawayPrize::Stars',
+      'messageGiveawayWinners'                                  => 'MessageGiveawayWinners',
+      'giveawayParameters'                                      => 'GiveawayParameters',
+      'targetChatTypes'                                         => 'TargetChatTypes'
   }.freeze
   
   module_function
@@ -2028,6 +2032,7 @@ module TD::Types
     game
     game_high_score
     game_high_scores
+    giveaway_parameters
     giveaway_prize
     group_call
     group_call_id
@@ -2109,6 +2114,7 @@ module TD::Types
     message_effect_type
     message_file_type
     message_forward_info
+    message_giveaway_winners
     message_import_info
     message_interaction_info
     message_link
@@ -2310,6 +2316,7 @@ module TD::Types
     t_me_url_type
     t_me_urls
     target_chat
+    target_chat_types
     telegram_payment_purpose
     temporary_password_state
     terms_of_service
