@@ -11,6 +11,6 @@ module TD::Types
     attribute :mime_type, TD::Types::String
     attribute :audio, TD::Types::Audio.optional.default(nil)
     attribute :duration, TD::Types::Coercible::Integer
-    attribute :author, TD::Types::String
+    attribute :author, TD::Types::String.optional.default(nil)
   end
 end

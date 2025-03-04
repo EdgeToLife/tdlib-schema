@@ -5,6 +5,6 @@ module TD::Types
   # @attr author [TD::Types::String] Author of the animation.
   class LinkPreviewType::Animation < LinkPreviewType
     attribute :animation, TD::Types::Animation
-    attribute :author, TD::Types::String
+    attribute :author, TD::Types::String.optional.default(nil)
   end
 end

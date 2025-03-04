@@ -5,6 +5,6 @@ module TD::Types
   # @attr author [TD::Types::String] Author of the document.
   class LinkPreviewType::Document < LinkPreviewType
     attribute :document, TD::Types::Document
-    attribute :author, TD::Types::String
+    attribute :author, TD::Types::String.optional.default(nil)
   end
 end
