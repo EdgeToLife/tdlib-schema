@@ -526,6 +526,7 @@ module TD::Types
       'linkPreviewTypeEmbeddedAnimationPlayer'                  => 'LinkPreviewType::EmbeddedAnimationPlayer',
       'linkPreviewTypeEmbeddedAudioPlayer'                      => 'LinkPreviewType::EmbeddedAudioPlayer',
       'linkPreviewTypeEmbeddedVideoPlayer'                      => 'LinkPreviewType::EmbeddedVideoPlayer',
+      'linkPreviewTypeExternalVideo'                            => 'LinkPreviewType::LinkPreviewTypeExternalVideo',
       'linkPreviewTypeInvoice'                                  => 'LinkPreviewType::Invoice',
       'linkPreviewTypeMessage'                                  => 'LinkPreviewType::Message',
       'linkPreviewTypePhoto'                                    => 'LinkPreviewType::Photo',
@@ -1760,6 +1761,7 @@ module TD::Types
       'chatFolderName'                                          => 'ChatFolderName',
       'verificationStatus'                                      => 'VerificationStatus',
       'emojiStatusTypeCustomEmoji'                              => 'EmojiStatusType::CustomEmoji',
+      'emojiStatusTypeUpgradedGift'                             => 'EmojiStatusType::UpgradedGift',
       'paidReactionTypeRegular'                                 => 'ReactionType::PaidRegular',
       'updateDefaultPaidReactionType'                           => 'Update::DefaultPaidReactionType',
       'upgradedGiftBackdropColors'                              => 'UpgradedGiftBackdropColors'
