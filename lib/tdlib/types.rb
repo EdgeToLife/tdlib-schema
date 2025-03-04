@@ -526,7 +526,7 @@ module TD::Types
       'linkPreviewTypeEmbeddedAnimationPlayer'                  => 'LinkPreviewType::EmbeddedAnimationPlayer',
       'linkPreviewTypeEmbeddedAudioPlayer'                      => 'LinkPreviewType::EmbeddedAudioPlayer',
       'linkPreviewTypeEmbeddedVideoPlayer'                      => 'LinkPreviewType::EmbeddedVideoPlayer',
-      'linkPreviewTypeExternalVideo'                            => 'LinkPreviewType::LinkPreviewTypeExternalVideo',
+      'linkPreviewTypeExternalVideo'                            => 'LinkPreviewType::ExternalVideo',
       'linkPreviewTypeInvoice'                                  => 'LinkPreviewType::Invoice',
       'linkPreviewTypeMessage'                                  => 'LinkPreviewType::Message',
       'linkPreviewTypePhoto'                                    => 'LinkPreviewType::Photo',
