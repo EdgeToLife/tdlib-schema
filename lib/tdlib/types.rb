@@ -1764,7 +1764,8 @@ module TD::Types
       'emojiStatusTypeUpgradedGift'                             => 'EmojiStatusType::UpgradedGift',
       'paidReactionTypeRegular'                                 => 'ReactionType::PaidRegular',
       'updateDefaultPaidReactionType'                           => 'Update::DefaultPaidReactionType',
-      'upgradedGiftBackdropColors'                              => 'UpgradedGiftBackdropColors'
+      'upgradedGiftBackdropColors'                              => 'UpgradedGiftBackdropColors',
+      'giveawayPrizePremium'                                    => 'GiveawayPrize::Premium'
   }.freeze
   
   module_function
@@ -2027,6 +2028,7 @@ module TD::Types
     game
     game_high_score
     game_high_scores
+    giveaway_prize
     group_call
     group_call_id
     group_call_participant
