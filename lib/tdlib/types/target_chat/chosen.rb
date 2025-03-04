@@ -6,9 +6,9 @@ module TD::Types
   # @attr allow_group_chats [Boolean] True, if basic group and supergroup chats are allowed.
   # @attr allow_channel_chats [Boolean] True, if channel chats are allowed.
   class TargetChat::Chosen < TargetChat
-    attribute :allow_user_chats, TD::Types::Bool
-    attribute :allow_bot_chats, TD::Types::Bool
-    attribute :allow_group_chats, TD::Types::Bool
-    attribute :allow_channel_chats, TD::Types::Bool
+    attribute :allow_user_chats, TD::Types::Bool.optional.default(nil)
+    attribute :allow_bot_chats, TD::Types::Bool.optional.default(nil)
+    attribute :allow_group_chats, TD::Types::Bool.optional.default(nil)
+    attribute :allow_channel_chats, TD::Types::Bool.optional.default(nil)
   end
 end
