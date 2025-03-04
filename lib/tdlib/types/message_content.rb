@@ -74,6 +74,7 @@ module TD::Types
       passport_data_received
       proximity_alert_triggered
       unsupported
+      message_giveaway
     ].each do |type|
       autoload TD::Types.camelize(type), "tdlib/types/message_content/#{type}"
     end
