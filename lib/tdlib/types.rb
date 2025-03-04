@@ -1761,7 +1761,8 @@ module TD::Types
       'verificationStatus'                                      => 'VerificationStatus',
       'emojiStatusTypeCustomEmoji'                              => 'EmojiStatusType::CustomEmoji',
       'paidReactionTypeRegular'                                 => 'ReactionType::PaidRegular',
-      'updateDefaultPaidReactionType'                           => 'Update::DefaultPaidReactionType'
+      'updateDefaultPaidReactionType'                           => 'Update::DefaultPaidReactionType',
+      'upgradedGiftBackdropColors'                              => 'UpgradedGiftBackdropColors'
   }.freeze
   
   module_function
@@ -2326,6 +2327,7 @@ module TD::Types
     unread_reaction
     update
     updates
+    upgraded_gift_backdrop_colors
     user
     user_full_info
     user_link
