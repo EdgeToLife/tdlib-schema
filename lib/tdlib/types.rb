@@ -743,7 +743,7 @@ module TD::Types
       'messagePassportDataReceived'                             => 'MessageContent::PassportDataReceived',
       'messageProximityAlertTriggered'                          => 'MessageContent::ProximityAlertTriggered',
       'messageUnsupported'                                      => 'MessageContent::Unsupported',
-      'messageGiveaway'                                         => 'MessageContent::MessageGiveaway',
+      'messageGiveaway'                                         => 'MessageContent::Giveaway',
       'TextEntityType'                                          => 'TextEntityType',
       'textEntityTypeMention'                                   => 'TextEntityType::Mention',
       'textEntityTypeHashtag'                                   => 'TextEntityType::Hashtag',
