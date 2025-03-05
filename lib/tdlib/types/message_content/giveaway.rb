@@ -5,7 +5,7 @@ module TD::Types
   # @attr winner_count [Integer] Number of users which will receive Telegram Premium subscription gift codes.
   # @attr prize [TD::Types::GiveawayPrize] Prize of the giveaway.
   # @attr sticker [TD::Types::Sticker, nil] A sticker to be shown in the message; may be nil if unknown.
-  class Giveaway < MessageContent
+  class MessageContent::Giveaway < MessageContent
     attribute :parameters, TD::Types::GiveawayParameters
     attribute :winner_count, TD::Types::Coercible::Integer
     attribute :prize, TD::Types::GiveawayPrize
