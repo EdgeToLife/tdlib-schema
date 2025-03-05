@@ -744,6 +744,7 @@ module TD::Types
       'messageProximityAlertTriggered'                          => 'MessageContent::ProximityAlertTriggered',
       'messageUnsupported'                                      => 'MessageContent::Unsupported',
       'messageGiveaway'                                         => 'MessageContent::Giveaway',
+      'messageGiveawayCreated'                                  => 'MessageContent::GiveawayCreated',
       'TextEntityType'                                          => 'TextEntityType',
       'textEntityTypeMention'                                   => 'TextEntityType::Mention',
       'textEntityTypeHashtag'                                   => 'TextEntityType::Hashtag',

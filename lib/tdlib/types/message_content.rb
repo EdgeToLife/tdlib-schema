@@ -75,6 +75,7 @@ module TD::Types
       proximity_alert_triggered
       unsupported
       giveaway
+      giveaway_created
     ].each do |type|
       autoload TD::Types.camelize(type), "tdlib/types/message_content/#{type}"
     end
